@@ -28,3 +28,8 @@ lcv.cv(X_train, y_train, lgbm_params, n_folds=5)
 
 For detailed information, see examples.ipynb.
 ```
+
+# Reference
+- https://nigimitama.hatenablog.jp/entry/2021/01/05/205741
+- https://blog.amedama.jp/entry/lightgbm-cv-model
+- https://www.kaggle.com/code/kenmatsu4/using-trained-booster-from-lightgbm-cv-w-callback/notebook

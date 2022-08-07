@@ -36,7 +36,6 @@ class LightGbmCv:
         self.folds = StratifiedKFold(n_splits=n_folds, shuffle=True, random_state=0)
 
         # Fitting
-        # https://nigimitama.hatenablog.jp/entry/2021/01/05/205741
         cv_result = lgb.cv(params=lgbm_params,
                            train_set=lgb_train,
                            folds=self.folds,
